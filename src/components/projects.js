@@ -45,7 +45,7 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 1) {
+    } else if(this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
           {/* Test task 1 */}
@@ -101,16 +101,46 @@ class Projects extends Component {
     } else if(this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
-          {/* Test task 1 */}
+          {/* My CV */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
             <CardTitle style={{color: '#000', height: '100px'}} >
-              Test task #1
+              My CV
             </CardTitle>
             <CardText>
-              Gulp 4. Pug. Stylus. Jquery.
+              React, React-Router, React-MDL, Production mode
             </CardText>
             <CardActions border>
-              <Button colored><a href="https://github.com/djwitty/wmru_test">GitHub</a></Button>
+              <Button colored><a href="https://github.com/djwitty/cv">GitHub</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* KSDB */}
+          <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '100px'}} >
+              Kazinaki Shows DataBase
+            </CardTitle>
+            <CardText>
+              API, VueJS, Webpack, Babel, Pug, Sass, Express, Firebase
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://bitbucket.org/mikhail_pov/ksdb-dev/src/master/">BitBucket</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Task Manager */}
+          <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '100px'}} >
+              Simple Task Manager
+            </CardTitle>
+            <CardText>
+              Pure Java Script, Jquery, Bootstrap 4
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://bitbucket.org/mikhail_pov/taskmanjs/src/master/">BitBucket</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -118,12 +148,12 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 3) {
+    } else if(this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
           {/* Ruhkaranta */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '80px'}} >
+            <CardTitle style={{color: '#000', height: '200px'}} >
               Ruhkaranta
             </CardTitle>
             <CardText>
@@ -138,7 +168,7 @@ class Projects extends Component {
           </Card>
           {/* Corsens Medical */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '80px', background: 'url(http://corsensmed.com/wp-content/uploads/2016/06/corsens_logo2.png) no-repeat left center'}} >
+            <CardTitle style={{color: '#000', height: '200px', background: 'url(http://corsensmed.com/wp-content/uploads/2016/06/corsens_logo2.png) no-repeat left center'}} >
               Corsens Medical
             </CardTitle>
             <CardText>
@@ -153,7 +183,7 @@ class Projects extends Component {
           </Card>
           {/* Application Cloud */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '80px', background: 'url(https://appscloud.io/wp-content/themes/appslanding/images/logo.svg) no-repeat center -20px'}} >
+            <CardTitle style={{color: '#000', height: '200px', background: 'url(https://appscloud.io/wp-content/themes/appslanding/images/logo.svg) no-repeat center -20px'}} >
               Application Cloud
             </CardTitle>
             <CardText>
@@ -168,7 +198,7 @@ class Projects extends Component {
           </Card>
           {/* Sasta Shop */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '80px'}} >
+            <CardTitle style={{color: '#000', height: '200px'}} >
               Sasta Shop
             </CardTitle>
             <CardText>
@@ -181,7 +211,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/* Technologic Shop */}
+          {/* Technologic Shop 
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
             <CardTitle style={{color: '#000', height: '80px'}} >
               Technologic Shop
@@ -196,9 +226,10 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          */}
           {/* Market Line */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '80px'}} >
+            <CardTitle style={{color: '#000', height: '200px'}} >
               Market Line
             </CardTitle>
             <CardText>
@@ -221,9 +252,9 @@ class Projects extends Component {
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>Management</Tab>
+          <Tab>CMS</Tab>
           <Tab>HTML/CSS</Tab>
           <Tab>JS</Tab>
-          <Tab>CMS</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

@@ -27,38 +27,27 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    380 (99) 64-24-024 (Calls, Viber, TG)
+                    380(99) 6424-024 (Main)
                   </ListItemContent>
                 </ListItem>
-
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-whatsapp" aria-hidden="true"/>
-                    356 (9) 995-39-02 (WhatsApp)
+                    356(9) 9953-902 (WhatsApp)
                   </ListItemContent>
                 </ListItem>
-
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    <a href="mailto: michael.pov.it@gmail.com">michael.pov.it@gmail.com</a> (work)
+                    <a href="mailto: michael.pov.it@gmail.com">michael.pov.it@gmail.com</a>
                   </ListItemContent>
                 </ListItem>
-
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
-                    <a href="mailto: mikhail.povstenko@gmail.com">mikhail.povstenko@gmail.com</a> (private)
-                  </ListItemContent>
-                </ListItem>
-
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     &nbsp;<a href="skype:DjWitty87">DjWitty87</a>
                   </ListItemContent>
                 </ListItem>
-
               </List>
             </div>
           </Cell>
