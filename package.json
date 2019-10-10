@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "year": "2019",
   "private": true,
-  "homepage": "http://djwitty.github.io/cv",
+  "homepage": "https://djwitty.github.io/resume",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
