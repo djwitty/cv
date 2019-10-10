@@ -9,7 +9,7 @@ class Resume extends Component {
     return(
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell col={5}>
             <div style={{textAlign: 'center'}}>
               <img
                 src="http://web-dev-studio.com/ava.jpg"
@@ -17,7 +17,6 @@ class Resume extends Component {
                 style={{height: '300px'}}
                  />
             </div>
-
             <h2 style={{paddingTop: '1em'}}>Mikhail Povstenko</h2>
             <h4 style={{color: 'grey'}}>Project Manager, SCRUM Master</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
@@ -38,23 +37,9 @@ class Resume extends Component {
               <p>Ukraine, Odessa</p>
             </div>
           </Cell>
-          <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
-            <Education
-              startYear={2005}
-              endYear={2006}
-              schoolName="Mykolaiv Professional Engineering Lyceum"
-              schoolDescription="Speciality: Computer Typing Operator. Graduated with honors."
-               />
-               <Education
-                 startYear={2006}
-                 endYear={2019}
-                 schoolName="International Technological University “Mykolaiv Polytechnics”"
-                 schoolDescription="Professional qualification: Bachelor in Computer Engineering (IT Specialist)"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Experience</h2>
-
+          <Cell className="resume-right-col" col={7}>
+            <hr style={{borderTop: '3px solid #e22947'}} />
+            <h2>Experience</h2>
             <Experience
               startYear={2019}
               endYear={2019}
@@ -65,7 +50,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2019}
               jobName="Application Cloud"
-              jobDescription="Director, Facilities Manager, Recruter/HR"
+              jobDescription="Director | Facilities Manager | Recruter/HR"
               />
             <Experience
               startYear={2012}
@@ -91,24 +76,45 @@ class Resume extends Component {
               jobName="Geeks For Less"
               jobDescription="HTML/CSS coding"
               />
-              <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="Project Managment"
-                progress={99}
-                />
-                <Skills
-                  skill="HTML/CSS/JS"
-                  progress={77}
-                  />
-                  <Skills
-                    skill="Popular CMS"
-                    progress={80}
-                    />
-                    <Skills
-                      skill="JS Frameworks"
-                      progress={33}
-                      />
+            <hr style={{borderTop: '3px solid #e22947'}} />
+            <h2>Education</h2>
+            <Education
+              startYear={2006}
+              endYear={2009}
+              schoolName="International Technological University “Mykolaiv Polytechnics”"
+              schoolDescription="Professional qualification: Bachelor in Computer Engineering (IT Specialist)"
+            />
+            <Education
+              startYear={2018}
+              endYear={2019}
+              schoolName="International Technological University “Mykolaiv Polytechnics”"
+              schoolDescription="Professional qualification: Bachelor in Computer Engineering (IT Specialist)"
+            />
+            <Education
+              startYear={2005}
+              endYear={2006}
+              schoolName="Mykolaiv Professional Engineering Lyceum"
+              schoolDescription="Speciality: Computer Typing Operator. Graduated with honors."
+            />
+            <hr style={{borderTop: '3px solid #e22947'}} />
+            <h2>Skills</h2>
+            <Skills
+              skill="Project Managment"
+              progress={99}
+            />
+            <Skills
+              skill="HTML/CSS/JS"
+              progress={77}
+            />
+            <Skills
+              skill="Popular CMS"
+              progress={80}
+            />
+            <Skills
+              skill="JS Frameworks"
+              progress={33}
+            />
+
           </Cell>
         </Grid>
       </div>

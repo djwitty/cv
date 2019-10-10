@@ -26,6 +26,12 @@
   color: white;
   padding: 2em;
 }
+.resume-right-col h2 {
+  padding: 0 8px;
+}
+.resume-right-col h4 {
+  margin-bottom: 5px !important;
+}
 
 /* contact page css */
 

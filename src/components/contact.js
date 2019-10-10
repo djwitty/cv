@@ -7,7 +7,7 @@ class Contact extends Component {
     return(
       <div className="contact-body">
         <Grid className="contact-grid">
-          <Cell col={6}>
+          <Cell col={4}>
             <h2>Mikhail Povstenko</h2>
             <img
               src="http://web-dev-studio.com/ava.jpg"
@@ -19,7 +19,7 @@ class Contact extends Component {
               I take great pride in my work and strive to achieve the best possible results at all times.
              </p>
           </Cell>
-          <Cell col={6}>
+          <Cell col={8}>
             <h2>Contact Me</h2>
             <hr/>
             <div className="contact-list">
