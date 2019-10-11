@@ -19,7 +19,7 @@ class Landing extends Component {
             <Cell col={12}>
               <p>&nbsp;</p>
               <div className="">
-                <h1><span style={{color: 'black'}}>Mikhail</span> <span style={{color: 'white'}}>Povstenko</span></h1>
+                <h1><span style={{color: 'black'}}>Mikhail</span> <span style={{color: 'white'}}></span></h1>
                 <h2 style={{color: 'white'}}>Project Manager | <span style={{color: 'black'}}>Web-developer</span></h2>
                 <h3 style={{color: 'white'}}><span style={{color: 'black'}}>Most proud of:</span> project analysis, team management, staff motivating</h3>
                 <h3 style={{color: 'white'}}>What I love: <span style={{color: 'black'}}>traveling, languages, self-developemt, quizzes</span></h3>
@@ -40,10 +40,6 @@ class Landing extends Component {
               <p><span style={{color: 'red'}}>Competent</span>, <span style={{color: 'orange', backgroundColor: 'white'}}>Driven</span>, <span style={{color: 'yellow'}}>Businesslike</span>, <span style={{color: 'green', backgroundColor: 'white'}}>Communicative</span>, <span style={{color: 'blue'}}>Reliable</span>, <span style={{color: 'indigo', backgroundColor: 'white'}}>Insightful</span>, <span style={{color: 'violet'}}>Cooperative</span></p>
               <hr style={{padding: '1em'}}/>
               <div className="social-links">
-                {/* LinkedIn */}
-                <a href="https://www.linkedin.com/in/witty87/" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
-                </a>
                 {/* Instagram */}
                 <a href="https://www.instagram.com/parovozik_is_train/" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-instagram" aria-hidden="true" />

@@ -17,7 +17,7 @@ class Resume extends Component {
                 style={{height: '300px'}}
                  />
             </div>
-            <h2 style={{paddingTop: '1em'}}>Mikhail Povstenko</h2>
+            <h2 style={{paddingTop: '1em'}}>Mikhail</h2>
             <h4 style={{color: 'grey'}}>Project Manager, SCRUM Master</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
             <p> I am a driven, organised and motivated Project Manager with previous work experience in managing web-projects, dev-teams and business-relationship.
@@ -44,7 +44,7 @@ class Resume extends Component {
               startYear={2019}
               endYear={2019}
               jobName="482 Solutions"
-              jobDescription="(RnD | IoT | In-House) Projects Manager"
+              jobDescription="(RnD | IoT | In-House) Projects Manager. Web-projects consultant."
               />
             <Experience
               startYear={2016}

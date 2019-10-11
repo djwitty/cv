@@ -101,6 +101,22 @@ class Projects extends Component {
     } else if(this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
+          
+          {/* Recepie Book */}
+          <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
+            <CardTitle style={{color: '#000', height: '100px'}} >
+              Recepie Book
+            </CardTitle>
+            <CardText>
+              Angular 2+, NG-Router, Firebase, Bootstrap 3
+            </CardText>
+            <CardActions border>
+              <Button colored><a href="https://github.com/djwitty/RecepieBookNG">GitHub</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
           {/* My CV */}
           <Card shadow={5} style={{minWidth: '300', margin: 'auto'}}>
             <CardTitle style={{color: '#000', height: '100px'}} >

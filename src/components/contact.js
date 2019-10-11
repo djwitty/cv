@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={4}>
-            <h2>Mikhail Povstenko</h2>
+            <h2>Mikhail</h2>
             <img
               src="http://web-dev-studio.com/ava.jpg"
               alt="avatar"
@@ -27,13 +27,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    380(99) 6424-024 (Main)
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-whatsapp" aria-hidden="true"/>
-                    356(9) 9953-902 (WhatsApp)
+                    380 (99) 6424-024
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
@@ -45,7 +39,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
-                    &nbsp;<a href="skype:DjWitty87">DjWitty87</a>
+                    &nbsp;<a href="https://join.skype.com/invite/bmEeqWgTk6FK">DjWitty87</a>
                   </ListItemContent>
                 </ListItem>
               </List>
